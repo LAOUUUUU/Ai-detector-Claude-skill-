@@ -21,7 +21,7 @@ The skill runs text through six analysis layers, each weighted and combined into
 
 ### Layer 1 — Sliding Window (25%)
 
-Every paragraph gets scored independently. For each one, Claude asks itself: "If I were given the first sentence as a prompt, how closely does the rest match what I would generate?" Paragraphs get color-coded (green/yellow/orange/red) so you can see exactly which sections look human and which don't.
+Every paragraph gets scored independently. For each one, Claude asks itself: "If I were given the first sentence as a prompt, how closely does the rest match what I would generate?" Paragraphs get labeled by AI likelihood (Low/Mid/High/Very High) so you can see exactly which sections look human and which don't.
 
 This is the closest thing to Turnitin's per-sentence highlighting you can get without a trained classifier.
 
@@ -80,8 +80,8 @@ Scores are pattern-match percentages, not probabilities. The skill never claims 
 
 The full report includes:
 
-- Layer-by-layer score breakdown with weights and contributions
-- Paragraph-by-paragraph color-coded table showing which sections flagged and why
+- Layer-by-layer score breakdown with explanations (Score = how strongly AI was detected, Weight = how much the layer matters, Contribution = actual points added to final score)
+- Paragraph-by-paragraph breakdown with AI likelihood labels (Low/Mid/High/Very High) showing which sections flagged and why
 - Voice consistency analysis (formality range, contraction usage, vocabulary drift, pronoun shifts)
 - Persona panel table with each expert's score and reasoning
 - Top 3-5 strongest signals with exact quotes from the text
