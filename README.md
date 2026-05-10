@@ -1,5 +1,16 @@
 # AI Detector v3
 
+![Version](https://img.shields.io/badge/version-3.0-blue?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude-Opus_4.6+-blueviolet?style=flat-square&logo=anthropic)
+![Skill](https://img.shields.io/badge/type-Claude_Skill-orange?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Layers](https://img.shields.io/badge/analysis_layers-6-red?style=flat-square)
+![AI Patterns](https://img.shields.io/badge/patterns_tracked-78+-yellow?style=flat-square)
+![Language](https://img.shields.io/badge/language-English-lightgrey?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/LAOUUUUU/Ai-detector-Claude-skill-?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/LAOUUUUU/Ai-detector-Claude-skill-?style=flat-square)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLAOUUUUU%2FAi-detector-Claude-skill-&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)
+
 A Claude skill that analyzes text for signs of AI-generated writing and produces a detailed detection report with scoring.
 
 Unlike basic AI detectors that just scan for word lists, this skill uses Claude's own capabilities as a language model to estimate how predictable the text is, check for voice consistency, and score each paragraph independently — similar to how tools like Turnitin work, but without needing a separate classifier model.
