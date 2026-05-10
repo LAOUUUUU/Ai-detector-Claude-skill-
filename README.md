@@ -9,7 +9,7 @@
 ![Language](https://img.shields.io/badge/language-English-lightgrey?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/LAOUUUUU/Ai-detector-Claude-skill-?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/LAOUUUUU/Ai-detector-Claude-skill-?style=flat-square)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLAOUUUUU%2FAi-detector-Claude-skill-&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLAOUUUUU%2FAi-detector-Claude-skill-&countColor=%23263759&style=flat-square)
 
 A Claude skill that analyzes text for signs of AI-generated writing and produces a detailed detection report with scoring.
 
